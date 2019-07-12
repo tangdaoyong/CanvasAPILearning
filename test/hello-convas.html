@@ -6,12 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="./hello-canvas.js"></script>
+    <script>
+        document.write('<script src="./hello-canvas.js?time=' + new Date().getTime() + '"><\/script>');
+        document.write('<link rel="stylesheet" href="./hello-canvas.css?time='+new Date().getTime()+'">');
+    </script>
+    <!-- <script src="./hello-canvas.js?time=201907112150400"></script> -->
+    <!-- <link rel="stylesheet" href="./hello-canvas.css?time=201907112150400"> -->
 
     <title>hello convas</title>
-    
+
 </head>
 <body>
+
+    <canvas id="canvas"></canvas>
     <canvas id="hello"></canvas>
+    
 </body>
 </html>
