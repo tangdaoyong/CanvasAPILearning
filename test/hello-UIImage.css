@@ -1,0 +1,8 @@
+#canvas {
+    border: 1px solid black;
+}
+#color {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
