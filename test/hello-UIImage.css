@@ -1,6 +1,10 @@
 #canvas {
     border: 1px solid black;
 }
+#zoom {
+    width: 100;
+    height: 100;
+}
 #color {
     width: 50%;
     height: 50px;
